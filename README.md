@@ -9,7 +9,7 @@
   - Real vehicle recording and processing by cutting, plus manual screening and marking;
   - Obtained by data synthesis.
 ### Generate Data Tools: 
-  - Matlab scripts, see the script attachment for details.
+  - Caffe, Python, Shell, Matlab scripts, see the script attachment for details.
 ### Data Marking Tool:    
   - Open the image through matlab and manually judge the distance of the edge of the lane line from the nearest pixel edge of the image as a label;
   - In which the boundary of the lane line is obviously easy to batch processing, use the create_lable.m script to batch label, see the script attachment.
