@@ -1,0 +1,20 @@
+# The train/test net protocol buffer definition
+net: "/home/an/An/Deeplane/lane_an/deeplanes2.prototxt"
+
+test_iter: 200
+test_interval: 500
+
+base_lr: 0.012
+momentum: 0.9
+weight_decay: 0.0005
+
+lr_policy: "step"
+stepsize: 30000
+gamma: 0.9
+
+display: 200
+max_iter: 300000
+
+snapshot: 50000
+snapshot_prefix: "/home/an/An/Deeplane/lane_an/data_yes_fz/snapshot2/fz"
+solver_mode: GPU
